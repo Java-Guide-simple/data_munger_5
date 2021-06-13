@@ -16,6 +16,7 @@ public class DataTypeDefinitions {
 
 	// method stub
 	public static String getDataTypes(String input) {
+		
 		if (input.matches("[0-9]+")) {
 			return "java.lang.Integer";
 		} else if (input.matches("[0-9]+.[0-9]+")) {
